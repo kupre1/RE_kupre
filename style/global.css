@@ -156,7 +156,7 @@ body {
   font-family: "Noto Sans Georgian  ";
 }
 
-body {
+body header {
   background-color: black;
 }
 body header .header_container {
@@ -190,21 +190,17 @@ body header .header_container .header_content .list-nav .a1 {
 body header .underline {
   height: 1px;
   max-width: 1110px;
+  width: 100%;
   margin: 0 auto;
   background-color: #979797;
 }
 
 body .main-section {
-  max-width: 1440px;
-  height: 635px;
-  margin: 0 auto;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
   color: #ffffff;
-  align-items: center;
+  background-color: black;
 }
 body .main-section .main-div {
+  align-items: center;
   width: 1110px;
   margin: 0 auto;
   display: flex;
