@@ -1,15 +1,16 @@
 body {
   .main-section {
-    max-width: 1440px;
-    height: 635px;
-    margin: 0 auto;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
+    // max-width: 1440px;
+    // height: 635px;
+    // margin: 0 auto;
+    // background-color: black;
+    // display: flex;
+    // justify-content: space-between;
     color: $main-bs-color;
-    align-items: center;
 
+    background-color: black;
     .main-div {
+      align-items: center;
       width: 1110px;
       margin: 0 auto;
       display: flex;
