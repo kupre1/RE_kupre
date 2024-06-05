@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  header {
+    .header_container {
+      max-width: 1440px;
+      height: 100px;
+      margin: 0 auto;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+
+      .header_content {
+        max-width: 1110px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .list-nav {
+          display: flex;
+          width: 423px;
+          justify-content: space-between;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 25px;
+          letter-spacing: 2px;
+
+          .a1 {
+            color: $main-bs-color;
+          }
+        }
+      }
+    }
+    .underline {
+      height: 1px;
+      max-width: 1110px;
+      // width: 100%;
+      margin: 0 auto;
+      background-color: #979797;
+    }
+  }
+}
