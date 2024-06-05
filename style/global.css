@@ -1,0 +1,258 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Work Sans", sans-serif;
+  background-color: #f7f7f7;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Noto Sans Georgian";
+  src: url(../../assets/fonts/NotoSansGeorgian-VariableFont_wdthwght.ttf);
+}
+body {
+  font-family: "Noto Sans Georgian  ";
+}
+
+body {
+  background-color: black;
+}
+body header .header_container {
+  max-width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+body header .header_container .header_content {
+  max-width: 1110px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .header_container .header_content .list-nav {
+  display: flex;
+  width: 423px;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+body header .header_container .header_content .list-nav .a1 {
+  color: #ffffff;
+}
+body header .underline {
+  height: 1px;
+  max-width: 1110px;
+  margin: 0 auto;
+  background-color: #979797;
+}
+
+body .main-section {
+  max-width: 1440px;
+  height: 635px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  align-items: center;
+}
+body .main-section .main-div {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+body .main-section .main-div .main-div-left {
+  max-width: 398px;
+  height: 346px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .main-section .main-div .main-div-left .main-p1 {
+  height: 19px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.12px;
+  letter-spacing: 10px;
+  text-align: left;
+}
+body .main-section .main-div .main-div-left .main-p2 {
+  width: 396px;
+  height: 116px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+body .main-section .main-div .main-div-left .main-p3 {
+  width: 349px;
+  height: 75px;
+  opacity: 0.75px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+body .main-section .main-div .main-div-left .main-btn {
+  width: 160px;
+  height: 48px;
+  background-color: #d87d4a;
+}
+body .main-section .main-div .main-div-left .main-btn .main-btn-a {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17.76px;
+  letter-spacing: 1px;
+  text-align: left;
+}/*# sourceMappingURL=global.css.map */
