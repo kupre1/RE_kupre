@@ -17,17 +17,53 @@ body {
         justify-content: space-between;
         align-items: center;
 
-        .list-nav {
+        .cart-a {
+          :hover {
+            background-color: black;
+            color: #d87d4a;
+          }
+          .combined :hover {
+            fill: #d87d4a;
+          }
+        }
+        .logo {
           display: flex;
-          width: 423px;
-          justify-content: space-between;
-          font-size: 13px;
-          font-weight: 700;
-          line-height: 25px;
-          letter-spacing: 2px;
+          align-items: center;
+          gap: 42px;
+        }
 
+        .burger-menu {
+          display: none;
+          &:hover {
+            background-color: black;
+            fill: #d87d4a;
+          }
+
+          @media (max-width: 1000px) {
+            display: block;
+          }
+        }
+
+        .navigation {
+          @media (max-width: 1000px) {
+            display: none;
+          }
+
+          .list-nav {
+            display: flex;
+            width: 423px;
+            justify-content: space-between;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 25px;
+            letter-spacing: 2px;
+          }
           .a1 {
             color: $main-bs-color;
+            &:hover {
+              background-color: black;
+              color: #d87d4a;
+            }
           }
         }
       }
