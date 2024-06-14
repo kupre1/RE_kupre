@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./style/global.css" />
+    <title>Document</title>
   </head>
   <body>
     <header>
-      <div class="header_container">
+      <div class="header_container" data-aos="fade-up">
         <div class="header_content">
           <div class="logo">
             <svg
@@ -75,7 +76,7 @@
       <div class="underline"></div>
     </header>
     <main class="main-section">
-      <div class="main-div">
+      <div class="main-div" data-aos="fade-up">
         <div class="main-div-left">
           <p class="main-p1">NEW PRODUCT</p>
           <p class="main-p2">XX99 Mark II Headphones</p>
@@ -93,23 +94,119 @@
       </div>
     </main>
     <section class="first-section">
-      <div class="First-div">
-        <img src="./assets/webp/image-removebg-preview(41).png" alt="" />
-        <p>HEADPHONES</p>
-        <a href="">SHOP</a>
+      <div class="First-div" data-aos="fade-up" data-aos-duration="3000">
+        <img
+          class="first-img"
+          class="preview41"
+          src="./assets/webp/image-removebg-preview(41).png"
+          alt=""
+        />
+        <p class="first-p">HEADPHONES</p>
+        <a class="first-shop" href=""
+          >SHOP<span class="first-span"
+            ><svg
+              width="8"
+              height="12"
+              viewBox="0 0 8 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.32178 1L6.32178 6L1.32178 11"
+                stroke="#D87D4A"
+                stroke-width="2"
+              />
+            </svg> </span
+        ></a>
       </div>
       <div class="First-div">
-        <img src="./assets/webp/image-removebg-preview(38).png" alt="" />
-        <p>SPEAKERS</p>
-        <a href="">SHOP</a>
+        <img
+          class="first-img"
+          class="preview38"
+          src="./assets/webp/image-removebg-preview(38).png"
+          alt=""
+        />
+        <p class="first-p">SPEAKERS</p>
+        <a class="first-shop" href=""
+          >SHOP
+          <span class="first-span"
+            ><svg
+              width="8"
+              height="12"
+              viewBox="0 0 8 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.32178 1L6.32178 6L1.32178 11"
+                stroke="#D87D4A"
+                stroke-width="2"
+              />
+            </svg> </span
+        ></a>
       </div>
       <div class="First-div">
-        <img src="./assets/webp/image-removebg-preview(42) (1).png" alt="" />
-        <p>EARPHONES</p>
-        <a href="">SHOP</a>
+        <img
+          class="first-img"
+          class="preview42"
+          src="./assets/webp/image-removebg-preview(42) (1).png"
+          alt=""
+        />
+        <p class="first-p">EARPHONES</p>
+        <a class="first-shop" href=""
+          >SHOP
+          <span class="first-span"
+            ><svg
+              width="8"
+              height="12"
+              viewBox="0 0 8 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.32178 1L6.32178 6L1.32178 11"
+                stroke="#D87D4A"
+                stroke-width="2"
+              />
+            </svg> </span
+        ></a>
       </div>
     </section>
+    <section class="second-section" data-aos="fade-up" data-aos-duration="3000">
+      <div class="second-text">
+        <div class="secText-first">
+          <p>BRINGING YOU THE</p>
+          <p><span class="secText-first-spn">BEST</span>AUDIO GEAR</p>
+        </div>
 
+        <p class="secText-second">
+          Located at the heart of New York City, Audiophile is the premier store
+          for high end headphones, earphones, speakers, and audio accessories.
+          We have a large showroom and luxury demonstration rooms available for
+          you to browse and experience a wide range of our products. Stop by our
+          store to meet some of the fantastic people who make Audiophile the
+          best place to buy your portable audio equipment.
+        </p>
+      </div>
+      <div class="second-img">
+        <img src="./assets/webp/Bitmap (3).png" alt="" />
+      </div>
+    </section>
+    <section class="third-section">
+      <div class="third-up">
+        <p class="third-up-p">OUR HAPPY CUSTOMERS</p>
+        <p class="third-up-img">
+          <img src="./assets/svg/arrow-down-bold 2.svg" alt="arrow" />
+          <img src="./assets/svg/Vector.svg" alt="arrow" />
+        </p>
+      </div>
+      <div class="third-down">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
