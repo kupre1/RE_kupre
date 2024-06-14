@@ -175,7 +175,36 @@ body header .header_container .header_content {
   justify-content: space-between;
   align-items: center;
 }
-body header .header_container .header_content .list-nav {
+body header .header_container .header_content .cart-a :hover {
+  background-color: black;
+  color: #d87d4a;
+}
+body header .header_container .header_content .cart-a .combined :hover {
+  fill: #d87d4a;
+}
+body header .header_container .header_content .logo {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+body header .header_container .header_content .burger-menu {
+  display: none;
+}
+body header .header_container .header_content .burger-menu:hover {
+  background-color: black;
+  fill: #d87d4a;
+}
+@media (max-width: 1000px) {
+  body header .header_container .header_content .burger-menu {
+    display: block;
+  }
+}
+@media (max-width: 1000px) {
+  body header .header_container .header_content .navigation {
+    display: none;
+  }
+}
+body header .header_container .header_content .navigation .list-nav {
   display: flex;
   width: 423px;
   justify-content: space-between;
@@ -184,8 +213,12 @@ body header .header_container .header_content .list-nav {
   line-height: 25px;
   letter-spacing: 2px;
 }
-body header .header_container .header_content .list-nav .a1 {
+body header .header_container .header_content .navigation .a1 {
   color: #ffffff;
+}
+body header .header_container .header_content .navigation .a1:hover {
+  background-color: black;
+  color: #d87d4a;
 }
 body header .underline {
   height: 1px;
@@ -201,10 +234,15 @@ body .main-section {
 }
 body .main-section .main-div {
   align-items: center;
-  width: 1110px;
+  max-width: 1110px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 1000px) {
+  body .main-section .main-div {
+    position: relative;
+  }
 }
 body .main-section .main-div .main-div-left {
   max-width: 398px;
@@ -251,4 +289,129 @@ body .main-section .main-div .main-div-left .main-btn .main-btn-a {
   line-height: 17.76px;
   letter-spacing: 1px;
   text-align: left;
+}
+@media (max-width: 1000px) {
+  body .main-section .main-div .main-div-left {
+    z-index: 2;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1000px) {
+  body .main-section .main-div .main-div-right {
+    position: absolute;
+    top: 0;
+    -o-object-position: center;
+       object-position: center;
+    z-index: 1;
+    flex: 1;
+  }
+}
+body .first-section {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+body .first-section .First-div {
+  width: 350px;
+  height: 204px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  body .first-section .First-div {
+    width: 223px;
+    height: 165px;
+  }
+}
+body .first-section .First-div .first-img {
+  position: absolute;
+  top: -71px;
+}
+body .first-section .First-div .first-shop {
+  margin-bottom: 30px;
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17.76px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: gray;
+}
+body .first-section .First-div .first-shop .first-span {
+  margin-left: 10px;
+}
+body .first-section .First-div .first-p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.59px;
+  letter-spacing: 1.2857142687px;
+  text-align: center;
+}
+body .second-section {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+}
+body .second-section .second-text {
+  width: 445px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .second-section .second-text .secText-first {
+  width: 445px;
+  height: 88px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.4285714626px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+body .second-section .second-text .secText-first .secText-first-spn {
+  color: #d87d4a;
+  margin-right: 3px;
+}
+body .second-section .second-text .secText-second {
+  width: 445px;
+  height: 175px;
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: gray;
+}
+body .third-section {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+body .third-section .third-up {
+  display: flex;
+  justify-content: space-between;
+}
+body .third-section .third-up .third-up-p {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
+  color: #000000;
+}
+body .third-section .third-up .third-up-img {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=global.css.map */
