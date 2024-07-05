@@ -24,11 +24,13 @@ body {
     }
   }
 
-  .product-list {
+  #product-list {
     max-width: 1110px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 
     .productMainPhoto {
       background-color: #f1f1f1;
@@ -39,7 +41,6 @@ body {
       justify-content: center;
     }
 
-    align-items: center;
     .productsText {
       display: flex;
       flex-direction: column;
